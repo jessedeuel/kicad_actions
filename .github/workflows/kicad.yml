@@ -1,4 +1,6 @@
-on: [push]
+on: 
+    workflow_call:
+
 jobs:
   Kicad-Generate-Gerbs:
     runs-on: ubuntu-latest
